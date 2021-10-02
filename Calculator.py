@@ -31,7 +31,5 @@ while calculator:
     answer = input("Do you want to use the calculator again? [Y/N] ")
     if answer.lower() == "y":
         calculator = True
-    elif answer.lower() == "n":
-        calculator = False
     else:
         calculator = False
